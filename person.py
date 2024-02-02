@@ -61,7 +61,7 @@ class person:
             if (self.getSkillLevel() > opponent.getSkillLevel()):
                 probabilities = [1.0, 0.0]
             else:
-                probabilities = [1.0, 0.0]
+                probabilities = [0.0, 1.0]
         
         winner = random.choices(players, probabilities)
         
